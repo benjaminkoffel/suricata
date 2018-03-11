@@ -25,4 +25,6 @@ suricata.yaml:
 
 Bring up demo ElasticSearch stack with `docker-compose up`.
 
-Install Suricata and Filebeat on monitoring machine via `sudo install.sh`.
+Install Suricata and Filebeat on monitoring machine via `sudo sh install.sh`.
+
+Access Kibana at http://localhost:5601 and create index pattern `suricata-*`.
