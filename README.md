@@ -15,10 +15,10 @@ ElasticSearch:
 
 ## Usage
 
-`filebeat.yml`:
+filebeat.yml:
 - Set ElasticSearch connection settings under `output.elasticsearch`.
 
-`suricata.yaml`:
+suricata.yaml:
 - Set `HOME_NET` to local network CIDR under `address-groups`.
 - Set `interface` to monitored network interface under `af-packet`.
 - Set `interface` to monitored network interface under `pcap`.
